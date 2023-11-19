@@ -68,7 +68,7 @@ button,
     padding-right: 220px;
     padding-top: 60px;
     padding-bottom: 60px;
-    gap: 48px;
+    gap: 50px;
 }
 
 .left {
@@ -85,8 +85,14 @@ button,
 }
 
 #panel {
-    width: 400px;
+    width: 450px;
     height: auto;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    border: rgb(255, 255, 255) solid;
+    padding: 18px;
+    border-radius: 10px;
+    border-width: 8px;
 }
 
 .text1 {
@@ -137,7 +143,7 @@ button,
     flex-direction: column;
     background-color: #E5E7EB;
     align-items: center;
-    padding: 100px 300px 100px 300px;
+    padding: 80px 300px 80px 300px;
 }
 
 p {
