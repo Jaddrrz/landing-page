@@ -134,8 +134,26 @@ button,
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 100px 300px 100px 300px;
 }
 
+p {
+    font-size: 36px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #797e85;
+    font-weight: 100;
+
+}
+
+.quote {
+    margin-top: -30px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: auto;
+    color: rgb(80, 73, 73);
+}
 
 
 
