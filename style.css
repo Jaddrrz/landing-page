@@ -18,9 +18,11 @@ button,
 .button1 {
     background: #3882F6;
     color: white;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 8px 26px 8px 26px;
     margin-top: 8px;
+    border: #3882F6;
+    /* width: 100px; */
 }
 
 .button1 {
@@ -61,19 +63,23 @@ button,
 
 .first-part {
     display: flex;
-    justify-content: space-around;
+    flex: 1;
+    justify-content: space-between;
     background: #1F2937;
     align-items: center;
     padding-left: 220px;
     padding-right: 220px;
     padding-top: 60px;
     padding-bottom: 60px;
-    gap: 50px;
+    gap: 60px;
+    min-width: 0;
 }
 
 .left {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
     gap: 8px;
   
 }
@@ -161,10 +167,6 @@ p {
     color: rgb(80, 73, 73);
 }
 
-#thin {
-    
-}
-
 .fourth {
     background: #3882F6;
     color: white;
@@ -172,13 +174,17 @@ p {
     margin: 100px 180px 100px 180px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 100px;
+    min-width: 0px;
+
 }
 
 .left2 {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    min-width: 0px;
 }
 
 .right2 {
