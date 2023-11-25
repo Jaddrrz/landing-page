@@ -20,7 +20,7 @@ button,
     color: white;
     border-radius: 8px;
     padding: 8px 26px 8px 26px;
-    margin-top: 8px;
+    
     border: #3882F6;
     /* width: 100px; */
 }
@@ -63,16 +63,17 @@ button,
 
 .first-part {
     display: flex;
-    flex: 1;
+
     justify-content: center;
     background: #1F2937;
     align-items: center;
-    padding-left: 220px;
-    padding-right: 220px;
+    padding-left: 120px;
+    padding-right: 120px;
     padding-top: 80px;
     padding-bottom: 80px;
     gap: 60px;
-    min-width: 0;
+    flex-wrap: wrap;
+   
 }
 
 .left {
@@ -81,23 +82,33 @@ button,
     flex-wrap: wrap;
     align-items: flex-start;
     gap: 8px;
-    height: 260px;
+    width: auto;
+    flex: 1;
+    padding: 0;
+    margin-right: 29px;
+    
 }
 
 .right {
     display: flex;
     justify-content: flex-end;
+flex: 1;
+    
+    align-items: center;
 }
 
 #panel {
+    display: flex;
     width: 450px;
     height: auto;
-    margin-bottom: 40px;
-    margin-left: 10px;
     border: rgb(255, 255, 255) solid;
+    
     padding: 18px;
     border-radius: 10px;
-    border-width: 8px;
+    border-width: 2px;
+    object-fit: cover;
+    max-width: 100%;
+    
 }
 
 .text1 {
@@ -144,11 +155,13 @@ button,
 
 .third {
     display: flex;
-    flex-wrap: wrap;
+    
+    flex: 1;
     flex-direction: column;
     background-color: #E5E7EB;
+    justify-content: center;
     align-items: center;
-    padding: 80px 300px 80px 300px;
+    padding: 80px 110px 80px 110px;
 }
 
 p {
@@ -167,17 +180,28 @@ p {
     color: rgb(80, 73, 73);
 }
 
+.container {
+    display: flex;
+    padding: 100px 120px 100px 120px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .fourth {
+    display: flex;
     background: #3882F6;
     color: white;
     padding: 40px;
-    margin: 100px 180px 100px 180px;
-    display: flex;
+    
+    
     justify-content: center;
     align-items: center;
-    gap: 100px;
-    min-width: 0px;
-
+    gap: 80px;
+    min-width: 200px;
+    
+    flex: 1;
+   
 }
 
 .left2 {
@@ -185,11 +209,13 @@ p {
     justify-content: flex-start;
     flex-direction: column;
     min-width: 0px;
+   
 }
 
 .right2 {
     display: flex;
     justify-content: flex-end;
+ 
 }
 
 .title4 {
